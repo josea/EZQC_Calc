@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EzoQC-Calc", "EzoQC-Calc\EzoQC-Calc.csproj", "{17B883EA-A832-4AA4-9E91-51D5C7ECC32E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EzoQC-CalcVarCompile", "EzoQC-CalcVarCompile\EzoQC-CalcVarCompile.csproj", "{9B40CC3A-7729-4533-B240-E6DABCB6441E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17B883EA-A832-4AA4-9E91-51D5C7ECC32E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B883EA-A832-4AA4-9E91-51D5C7ECC32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B883EA-A832-4AA4-9E91-51D5C7ECC32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B883EA-A832-4AA4-9E91-51D5C7ECC32E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B40CC3A-7729-4533-B240-E6DABCB6441E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B40CC3A-7729-4533-B240-E6DABCB6441E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B40CC3A-7729-4533-B240-E6DABCB6441E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B40CC3A-7729-4533-B240-E6DABCB6441E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BF022D2-C7C9-4078-A3DD-E4F68F80A07E}
+	EndGlobalSection
+EndGlobal
