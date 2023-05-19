@@ -13,7 +13,7 @@ namespace EzoQC_Calc
     internal class NodeExpression : Node
     {
         private string Expr;
-        public NodeExpression(string expr)
+        public NodeExpression(string expr)    /// 1 + 2
         {
             Expr = expr.Trim(' ').ToLower(); // just trim garbage spaces and normalize to lowercase.            
         }
@@ -46,6 +46,8 @@ namespace EzoQC_Calc
             }
             return eExpr;
         }
+        
+        
 
         /// <summary>
         /// Splits the incoming expressions left to right, by Op.
@@ -83,12 +85,14 @@ namespace EzoQC_Calc
                 return exprValue;
             }           
             else
-            {
+            {  // 1 + 2
                 // try to split the expression by operator
                 string exprLeft = "", exprRight = "";
                 char[] ops = { '+', '-', '*', '/', '^' }; // highest precendence operators go last
                 bool found = false;
-                char oper = ' ';
+                char oper = ' ';    // 1 + 2^2 
+                                    // 1 op(+)  nodeexpression( 2 ^2 ) 
+                                    //          >> pow(2,2) 
                 foreach (var op in ops)
                 {
                     found = SplitByOp(Expr, op, out exprLeft, out exprRight);
@@ -110,8 +114,8 @@ namespace EzoQC_Calc
                     return nb.Evaluate();
                 }
                 else // it couldn't split => is it a call to a function? 
-                {
-                    if (Expr[0] == '-')
+                { // -sqrt(2)
+                    if (Expr[0] == '-') 
                     {
                         return new NodeNegate(new NodeExpression(Expr.Substring(1))).Evaluate();
                     }

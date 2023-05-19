@@ -2,9 +2,40 @@
 
 // See https://aka.ms/new-console-template for more information
 
+
+//var expr = "-sqrt((1*2)^2)";
+////var expr = "-0";
+////var expr = "-x - -x";
+
+
+//System.Diagnostics.Debug.WriteLine("Parsed started");
+////var f = ne.Compile();
+
+//System.Diagnostics.Debug.WriteLine("Parsed finished");
+
+//for (var z = 0; z < 100000; z++)
+//{
+//    for (var y = 0; y < 10; y++)
+//    {
+//        for (var x = 0; x < 10; x++)
+//        {
+//            var ne = new NodeExpression(expr);
+//            ne.Evaluate();
+//            //Console.Write(
+
+//            //    ne.Evaluate()
+//            // );
+//            //Console.Write("\t");
+//        }
+//        //Console.WriteLine();
+//    }
+
+//}
+
+
 Console.WriteLine("*******************");
 Console.WriteLine("EzoQC cases");
-MathExpr.EvaluateExpr("1+1"); 
+MathExpr.EvaluateExpr("1+1");
 MathExpr.EvaluateExpr("1 + 2");
 MathExpr.EvaluateExpr("1 + -1");
 MathExpr.EvaluateExpr("-1 - -1");

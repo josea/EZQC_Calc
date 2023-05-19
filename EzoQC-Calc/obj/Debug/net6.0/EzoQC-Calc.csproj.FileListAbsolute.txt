@@ -1,0 +1,15 @@
+c:\projects\EzoQC-Calc\EzoQC-Calc\bin\Debug\net6.0\EzoQC-Calc.exe
+c:\projects\EzoQC-Calc\EzoQC-Calc\bin\Debug\net6.0\EzoQC-Calc.deps.json
+c:\projects\EzoQC-Calc\EzoQC-Calc\bin\Debug\net6.0\EzoQC-Calc.runtimeconfig.json
+c:\projects\EzoQC-Calc\EzoQC-Calc\bin\Debug\net6.0\EzoQC-Calc.dll
+c:\projects\EzoQC-Calc\EzoQC-Calc\bin\Debug\net6.0\EzoQC-Calc.pdb
+c:\projects\EzoQC-Calc\EzoQC-Calc\obj\Debug\net6.0\EzoQC-Calc.csproj.AssemblyReference.cache
+c:\projects\EzoQC-Calc\EzoQC-Calc\obj\Debug\net6.0\EzoQC-Calc.GeneratedMSBuildEditorConfig.editorconfig
+c:\projects\EzoQC-Calc\EzoQC-Calc\obj\Debug\net6.0\EzoQC-Calc.AssemblyInfoInputs.cache
+c:\projects\EzoQC-Calc\EzoQC-Calc\obj\Debug\net6.0\EzoQC-Calc.AssemblyInfo.cs
+c:\projects\EzoQC-Calc\EzoQC-Calc\obj\Debug\net6.0\EzoQC-Calc.csproj.CoreCompileInputs.cache
+c:\projects\EzoQC-Calc\EzoQC-Calc\obj\Debug\net6.0\EzoQC-Calc.dll
+c:\projects\EzoQC-Calc\EzoQC-Calc\obj\Debug\net6.0\refint\EzoQC-Calc.dll
+c:\projects\EzoQC-Calc\EzoQC-Calc\obj\Debug\net6.0\EzoQC-Calc.pdb
+c:\projects\EzoQC-Calc\EzoQC-Calc\obj\Debug\net6.0\EzoQC-Calc.genruntimeconfig.cache
+c:\projects\EzoQC-Calc\EzoQC-Calc\obj\Debug\net6.0\ref\EzoQC-Calc.dll
